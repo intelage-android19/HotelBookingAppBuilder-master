@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hotel Booking</string>\
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="base_url">https://www.efunhub.in/AppBuilder/hotelbooking/api/</string>
+    <string name="amenities_url">https://www.efunhub.in/AppBuilder/hotelbooking/images/amenities/</string>
+    <string name="guestRoom_image_url">https://www.efunhub.in/AppBuilder/hotelbooking/images/hotel_rooms_banner/</string>
+    <string name="guestroom_gallary_images">https://www.efunhub.in/AppBuilder/hotelbooking/images/hotel_rooms_gallery/</string>
+    <string name="guestroom_amenities_url">https://www.efunhub.in/AppBuilder/hotelbooking/images/hotel_rooms_amenities/</string>
+
+</resources>

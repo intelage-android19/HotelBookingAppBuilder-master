@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_back" />
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="17dp"
+            app:cardCornerRadius="5dp"
+            android:layout_gravity="center"
+            android:background="@color/colorWhite"
+         >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/referandearn"/>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/roundedcornersbutton">
+            <Button
+                android:id="@+id/btnReferEarn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/roundedcornersbuttoncolor"
+                android:text="Invite Friends "
+                android:textColor="@color/colorWhite"
+                />
+        </RelativeLayout>
+
+<!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Your Code"
+            android:textColor="#000000" />
+-->
+<!--
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="17dp"
+            android:layout_margin="10dp">
+&lt;!&ndash;
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/txtcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0GTFH"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@+id/txtcode"
+                android:src="@drawable/ic_content_copy_black_24dp" />
+        </RelativeLayout>
+&ndash;&gt;
+</android.support.v7.widget.CardView>
+-->
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+<!--
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+        <View
+            android:id="@+id/view1"
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/txtview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Or Share Via"
+                android:layout_toRightOf="@+id/view1"
+                android:textColor="#000000" />
+            <View
+                android:layout_toRightOf="@+id/txtview"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"/>
+
+
+        </RelativeLayout>
+-->
+    </LinearLayout>
+
+
+</layout>
